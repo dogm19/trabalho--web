@@ -1,0 +1,44 @@
+/*flutuante=========================================================================*/
+.img-2{
+  position: absolute;
+  bottom: 320px;
+  left: 970px;
+}
+
+.img-2{
+  animation: flutuacao 10s ease-in-out infinite;
+}
+
+@keyframes flutuacao{
+  0%, 100%{
+      transform: translateY(0px);
+  }
+  50%{
+      transform: translateY(-30px);
+  }
+}
+
+.img-3{
+  animation: flutuacao 10s ease-in-out infinite;
+}
+
+@keyframes flutuacao{
+  0%, 100%{
+      transform: translateY(0px);
+  }
+  50%{
+      transform: translateY(-30px);
+  }
+}
+.img-4{
+  animation: flutuacao 10s ease-in-out infinite;
+}
+
+@keyframes flutuacao{
+  0%, 100%{
+      transform: translateY(0px);
+  }
+  50%{
+      transform: translateY(-30px);
+  }
+}
