@@ -1,0 +1,148 @@
+/*================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Code:wght@400;600&family=Inter:wght@200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&family=Saira:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+/*================================================================================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #0e1633, #000000);
+    min-height: 100vh;
+    min-width: 100vw;
+    border: solid 1px #1d962d;
+    font-family: saira;
+}
+/*cabeçalho=======================================================================================*/
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 300px;
+    background: #0c132b;
+    margin-bottom: 100px;
+    border: solid 1px #1d962d;
+}
+.nav-lista{
+    font-style: normal;
+    text-shadow: none;
+    line-height: 48px;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 35px;
+    position: absolute;
+    left: 58%;
+    bottom: 810px;
+}
+.nav-lista > li{
+    list-style: none;
+    margin-left: 30px;
+}
+.nav-lista > li > a{
+    display: inline-block;
+    color: #0febeb;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    position: relative;
+    transition: .5s;    
+}
+.nav-lista > li > a:hover{
+    letter-spacing: .20rem;
+    color: #0febeb;
+    cursor: pointer; 
+    text-shadow: 1px 2px 10px #00FF29;  
+}
+/*conteiner=======================================================================================*/
+.conteiner{
+    width: 1160px;
+    margin-left: 110px;
+    position: relative;
+    top: 10%;
+    background-color: #cf070700;
+    padding: 10px;
+}
+
+.img-3{
+    position: absolute;
+    top: 460px;
+    left: 1300px;
+}
+.img-4{
+    position: absolute;
+    top: 360px;
+    left: 500px;
+}
+.card{
+    display: flex;
+    color: #0febeb;
+    width: 800px;
+    padding: 5px 5px 2px;
+    background: #03163f;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #48e43a;
+}
+.img-person{
+    margin-right: 15px;
+    border-radius: 10px 0 0 10px;
+}
+.info{
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pesquisa-bar{
+    position: relative;
+    top: 65%;
+    left: 0%;
+    margin: 10px 0;
+    background: #03163f;
+    height: 40px;
+    width: 460px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 20px #48e43a;
+}
+.pesquisa-texto{
+    width: 400px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;  
+}
+/*botoes==========================================================================================*/
+#botoes{
+    display: flex;
+}
+#botoes > button{
+    background: #03163f;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    font-family: saira;
+    font-size: 13px;
+    font-weight: 600;
+    color: #0febeb;
+    box-shadow: 1px 1px 0px #48e43a;
+}
+#botoes > button:active {
+    box-shadow: inset 1px 1px 0px #48e43a;
+    font-size: 0.9rem;
+  }
+#bt-1{
+    border-radius: 15px 0px 0px 15px;
+    margin-right: 7px;
+}
+#bt-2{
+    border-radius: 0px 15px 15px 0px;
+}
